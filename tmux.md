@@ -42,6 +42,11 @@ category: CLI
     Enter       # 3. Press enter to copy.
     C-b ]       # Paste
 
+### Session
+
+    C-b C-c     # New Session
+    C-b C-f     # Find session
+    
 ### Panes
 
     C-b %       # vert
@@ -58,8 +63,9 @@ category: CLI
 
     C-b c       # New window
     C-b 1       # Go to window 1
-    C-b n       # Go to next window
-    C-b p       # Go to previous window
+    C-b C-h     # Go to next window
+    C-b C-h     # Go to previous window
+    C-b Tab     # move to last active window
     C-b w       # List all window
 
 ### Detach/attach
@@ -71,6 +77,7 @@ category: CLI
 ### Niceties
 
     C-b t    # Time
+    C-b m    # Toggle mouse
 
 ## Status formats
 
